@@ -1,0 +1,256 @@
+
+Database: fouraxiz_supply_chain_latest
+Username: fouraxiz_supply_chain_latest
+Password: #supply_chain@!
+
+
+Item Backup
+
+id    Name
+ 1      1/2 Stone Chips 
+ 16     1/2 Black stone chips
+ 21     Sand
+ 22     Sand
+ 23     Sand
+ 
+ 25     Diesel Asphalt
+ 26     Diesel Asphalt
+ 
+ 5 Stone Dust
+ 13 Stone Dust
+ 
+ 
+ Following file updated
+ 
+ 1.v_item
+ 2.v_edit_item
+ 3.v_add_item
+ 
+ general store controller
+ 
+ 01740971733
+ 
+ 1.budget
+ 2.budget_details
+ 3.ipo_material_indent
+ 4.ipo_material_inent_details
+ 5.items
+ 6.item_category
+ 7.item_groups
+ 8.material_receive_requisition
+ 9.tbl_material_receive_requisition_details
+ 10.
+ 
+ 1164 so
+ 1210 do
+ 
+ 16436 dc
+ 16445 dc
+ 16450 dc
+ 16461 dc
+ 
+ Have to correction 0616 Indent No  
+ 8 will be 4,
+ 4 will be 2
+ 
+
+ 
+ Readymix Core table of Store Part
+ 1.items
+ 2.item_category
+ 3.item_group
+ 4.tbl_item_brand
+ 5.ipo_material_indent
+ 6.ipo_material_indent_details
+ 7.budget
+ 8.budget_details
+ 9.tbl_money_indent
+ 10.tbl_money_indent_details
+ 11.tbl_purchase_orders
+ 12.tbl_purchase_order_details
+ 13.material_receive_requisition
+ 14.tbl_material_receive_requisition_details
+ 15.tbl_item_comsumption
+ 16.tbl_item_adjustment
+ 17.tbl_item_opening_stock
+ 
+ Sabuj vai feedback
+ 1.indent_no have to add in money indent print page
+ 2.indent_no have to show by descending order in spot purchase
+ 3.current date have to fixed in add material indent Done
+ 4.have to extendt indent no culumn in spot purchase 
+ 5.remark option have to add in requisition report Done
+ 6.have to create spot purchase option from budget
+ 7.cutting chare,labor charge,transport cost,other cost option have to add in spot purchase
+ 
+ 
+ 
+ 10.print page double in indent print page
+ 11.Duplicate Indent Number in material indent
+ 
+ 
+ Problem stock for
+ 
+ 1.Rope,14 to 16mm
+ 2.Hammer(4 LB)
+ 3.Hammer(2 LB) 
+ 4.Hammer (6 LB) 
+ 5.Hose Pipe, 5" Special White
+ 
+ Updated
+ 1.report controller
+ 2.v_add_item,v_edit_item,v_item_stock,v_add_consumption
+ 
+ 33.54
+ 
+ 01844215801
+ 
+ 
+ Gitlab 
+ 
+git add <name of file>
+git commit -m "DESCRIBE COMMIT IN A FEW WORDS" ...
+git push origin <branch-name>
+
+For all file
+git add --all 
+
+For pull
+git pull origin "branch name"
+
+01316453636
+
+
+01717944233(5000)
+
+
+
+
+aktl Inventory Credential
+
+Database:fouraxiz_aktl_inventory
+Username:fouraxiz_aktl_inventory
+Password:%aktl$#@!
+01714053633 maksud
+
+
+1.have to create group summary value report
+2.have to create sub menu for material indent in general store
+
+
+Kmix sobuj vai  Feedback
+3.print page issue in material indent
+4.head office create 
+
+
+Aktl Inventory Database Updated
+
+1.ALTER TABLE `material_receive_requisition` ADD `qc_status` VARCHAR(30) NULL DEFAULT 'Pending' AFTER `is_active`;
+
+Files Updated
+1.Quality_controller created
+2.general_store/v_mrr
+
+$where['hold_salary !='] ="Yes";
+
+1.have to add remark option in comparative statement
+2.money indent have to show in indent details
+
+
+Printing & stationary material not show in indent
+
+1.department have to add in budget,money indent,purchase order 
+
+
+Url: http://192.168.55.228/demo_hrm/login
+Username: admin
+Password: 123456
+
+https://www.paymoapp.com/blog/the-complete-project-manager-guide/
+
+
+
+Aktl Inventory Database Update
+
+ALTER TABLE `material_receive_requisition` ADD `qc_no` VARCHAR(255) NULL AFTER `qc_status`; 
+ALTER TABLE `tbl_purchase_orders` ADD `bill_no` VARCHAR(255) NULL AFTER `closing_status`, ADD `challan_no` VARCHAR(255) NULL AFTER `bill_no`;
+
+
+
+
+ipo_material_indent_details d
+budget_details d
+tbl_money_indent_detais d
+tbl_purchase_order_details d
+tbl_material_receive_requisition_details d
+tbl_item_consumption 
+tbl_item_adjustment 
+tbl_item_opening_stock  
+
+item
+item_groups
+category
+tbl_item_brand
+tbl_money_indent
+budget
+ipo_material_indent
+material_receive_requisition
+
+
+
+Delete from supplier where CODE LIKE '%WS%';
+
+
+
+Admin 3,Gas generator 11
+
+Previous software
+
+17-admin
+3-Gasgenerator
+
+
+All item report and stock report
+1.Item code will be(BR-00001)
+2.Category column have to remove
+3.Item will be show in asending order
+4.Stock Column have to add
+5.Remark Column have to add
+6.group column have to remove
+
+Latest Database Updated for Aktl Inventory
+
+
+ALTER TABLE `tbl_consumption_info` ADD `dept_id` INT(11) NULL AFTER `sr_no`;
+ALTER TABLE `budget_details` ADD `purchase_by` VARCHAR(30) NULL AFTER `brand_id`;
+ALTER TABLE `budget_details` CHANGE `purchase_by` `purchase_by` VARCHAR(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT 'Procurement';
+ALTER TABLE `tbl_money_indent_details` ADD `purchase_by` VARCHAR(50) NULL AFTER `item_description`;
+ALTER TABLE `tbl_money_indent_details` CHANGE `purchase_by` `purchase_by` VARCHAR(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT 'Procurement';
+
+
+
+ALTER TABLE `issue_return_code` ADD `branch_id` INT(11) NULL AFTER `ir_code`; 
+ALTER TABLE `issue_return` ADD `memo_no` VARCHAR(255) NULL AFTER `created`; 
+ALTER TABLE `issue_return` CHANGE `ir_status` `ir_status` ENUM('not received','Received','Pending') CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT 'Pending'; 
+
+ALTER TABLE `issue_return` ADD `branch_id` INT(11) NULL AFTER `memo_no`, ADD `dept_id` INT(11) NULL AFTER `branch_id`, ADD `created_by` INT(11) NULL AFTER `dept_id`, ADD `updated_by` INT(11) NULL AFTER `created_by`, ADD `updated_date` DATE NULL AFTER `updated_by`;
+ALTER TABLE `issue_return` ADD `memo_or_sr_date` DATE NULL AFTER `updated_date`;  
+ALTER TABLE `issue_return` CHANGE `memo_no` `memo_or_sr_no` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL; 
+ALTER TABLE `issue_return` ADD `received_by` VARCHAR(50) NULL DEFAULT 'Memo' AFTER `memo_or_sr_date`; 
+
+
+2021-04-28
+
+Update tbl_delivery_challans set delivery_challan_date='2021-04-30' where dc_no>='PR/CH/HE/21/0038' and dc_no<='PR/CH/HE/21/0053'
+
+
+
+42- M/S. AL HAJ KARIM TEXTILES LTD. 
+
+Karim Text Feedback From Factory
+1.Have to add enter system in all module
+2.
+
+
+
+  

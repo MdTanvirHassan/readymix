@@ -1,0 +1,296 @@
+.sliderwrapper{
+    margin: 0px;
+    padding: 0px;
+}
+.small {
+    padding:2px 6px;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    border: 1px solid;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
+.btn{
+    background-image: none;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+
+}
+table.dataTable tbody th, table.dataTable tbody td{
+    padding: 8px 10px 8px 2px !important;
+}
+.btn span.glyphicon {    			
+    opacity: 0;
+
+
+}
+.btn.active span.glyphicon {				
+    opacity: 1;	
+
+}
+#imaginary_container{
+    margin-top:1.4%; /* Don't copy this */
+    width: 60%;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+    border: none
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    border: none;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.healthhq-top{
+    background: #fff;
+    height: 100px;
+    width: 100%;
+}
+.healthhq-top h3{
+    line-height:4;
+}
+.healthhq-top a{
+    color: #28bdb3;
+    font-size: 17px;
+    line-height: 7;
+}
+.barchive {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #c2c2c2;
+    color: #c2c2c2;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px 63px;
+    margin-bottom: 25px;
+}
+.healthhq-middle{
+    background-color:#eee;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+input[type=text]{
+    background: #ebebeb !important;
+}
+textarea{
+    background: #ebebeb !important;
+}
+.healthhq-bottom{
+    padding-top: 40px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #28bdb3;
+    background: none;
+}
+
+.hqlist {
+    /*        border-top: 1px solid #ddd;
+            box-shadow: 0 3px 4px 1px #ddd;
+            padding-bottom: 10px;
+            padding-top: 15px;*/
+    color: #8f8f8f;
+}
+
+.hqlist h3{
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    color: #626262;
+}
+
+.hqlistimage{
+    width: 100%;
+    min-width: 200px;
+    max-width: 240px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.terminated {
+
+    width:150px;
+    background: #EBEBEB;
+    padding: 7px 0px !important; 
+    color:#51ad69;
+    border-radius:5px 5px 5px 5px;
+    border:1px solid #B1B1B2;
+    font-weight: bold;
+}
+.ongoing{
+    width:150px;
+    background: #EBEBEB;
+    padding: 7px 0px !important; 
+    color:#f29027;
+    border:1px solid #B1B1B2;
+    font-weight: bold;
+    border-radius:5px 5px 5px 5px;
+}
+.published {
+    width:150px;
+    background: #EBEBEB;
+    padding: 7px 0px !important; 
+    color:#4688f5;
+    border:1px solid #B1B1B2;
+    font-weight: bold;
+    border-radius:5px 5px 5px 5px;
+}
+.drafts{
+    width:150px;
+    background: #EBEBEB;
+    padding: 7px 0px !important; 
+    color:#adadae;
+    border:1px solid #B1B1B2;
+    font-weight: bold;
+    border-radius:5px 5px 5px 5px;
+}
+.mission_button{
+    background: #f29027 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.sport{
+    background: #f29027 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.nutrition{
+    background: #4dbb5f none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.lecture{
+    background: #dec24e none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.bestPractice{
+    background: #5d90c3 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.challenge{
+    background: #5cd9e0 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.contest{
+    background: #1e2920 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.inspiration{
+    background: #8eedb6 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.quizz{
+    background: #be5ef0 none repeat scroll 0 0;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+}
+.right-button-common{
+    margin-bottom: 10px;
+}
+.text-muted {
+    float: right;
+
+}
+@media (max-width: 768px){
+    .healthhq-top h3{
+        line-height:1;
+        text-align: center;
+    }
+    .healthhq-top a{
+        color: #28bdb3;
+        font-size: 17px;
+        line-height: 1;
+        width: 100%;
+    }
+    .text-muted {
+        float: none;
+        text-align: center;
+    }
+    .terminated {
+
+        width: 100%;
+    }
+    .ongoing {
+
+        width: 100%;
+    }
+    .published {
+
+        width: 100%;
+    }
+    .drafts{
+
+        width: 100%;
+    }
+
+}
+.col-md-1{
+    width:60px;
+}
+/*    thead,tfoot{display: none;}*/
+.dataTables_filter label input{
+    position: absolute;
+    top: -93px !important;
+    left: -15px !important;
+    width: 24% !important;
+    padding-left: 30px !important;
+}
+.input-group-addon{
+    float: left;
+}
+.glyphicon-search{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    z-index: 10000;
+}
+.otherSearch{
+    position: absolute;
+    top: 4px;
+    left: 566px;
+    z-index: 10000;
+    background: #28BDB3;
+    padding: 9px;
+    color: white;
+    z-index: 0;
+}
+thead tr td{border: none !important;}
+.dataTables_filter{width: 20px}
+.dataTables_wrapper .dataTables_filter{
+    margin: 0px !important;
+}
+
+div.dt-buttons{
+    float: right !important;
+}
+.host-image{
+    width:80px;
+}

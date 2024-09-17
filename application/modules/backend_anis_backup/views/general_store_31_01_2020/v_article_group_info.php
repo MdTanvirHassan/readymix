@@ -1,0 +1,165 @@
+<div class="right_col" style="background-color: #f1f1f1;padding-bottom:20px;">
+            <h2 style="text-align:center; "></h2>
+            <hr>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">QC NO.:</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault"> Date :</label></div>
+                             <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Int/Dept.section :</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Supplier :</label></div>
+                             <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Invoice/Challan :</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">DAte :</label></div>
+                             <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Procurement :</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Date :</label></div>
+                             <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Remarks :</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <div class="col-sm-4 col-md-5  labeltext"><label for="inputdefault">Status :</label></div>
+                            <div class="col-sm-8 col-md-7 "><input class="form-control" id="inputdefault" type="text"></div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            
+                
+                
+              
+            <hr>
+             <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Art.code</th>
+        <th>Articles Description</th>
+        <th>unit</th>
+        <th>Receive Qty</th>
+        <th>QC Quality</th>
+        <th>Unit Price</th>
+        <th>Receive Value </th>
+        <th>Remark</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        <td><input type="text" name="" class="issue"></td>
+        
+      </tr>
+      </tbody>
+  </table>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+            
+            
+                
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-md-10">
+                    
+                    
+                </div>
+                <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-success button">VIEW</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn  btn-danger button">DELETE</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-info button">CLEAR</button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-warning button">SAVE</button>
+                    </div>
+                <div class="col-md-2">
+                        <button type="button" class="btn btn-success button">PRINT PREVIEW</button>
+                    </div>
+                    
+                <div class="col-md-2">
+                        <button type="button" class="btn btn-success button">EXIT</button>
+                    </div>
+                    
+                </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                        <button type="button" class="btn btn-success button">SUBMIT FOR QUALITY CERTIFICATION</button>
+                    </div>
+            </div>
+            
+            
+            </form>
+        </div>
+

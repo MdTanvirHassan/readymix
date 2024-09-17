@@ -1,0 +1,54 @@
+Database:fouraxiz_karimgroup_inventory
+Username:fouraxiz_kgims
+Password:kgims123
+
+Google map credential
+Project Name:My Project
+Project Id:festive-ray-178318 
+key=API_KEY 
+Name:API key 1
+Api Key= AIzaSyBsfGGJSumiV9Bw2oSA45Jb476GRvWbRL0 
+
+Project Name:Tracking
+Project Id:tracking-178319
+ key=API_KEY 
+ Name:API key 1
+ Api Key=  AIzaSyBgJIihMtu1z-jL69XMOasIIKXZdLWcA9I 
+ 
+ Project Name:manik
+ project Id:manik-178402
+ Api Key: AIzaSyBsbWiSkbCAhymgnhaKgntDqp89xeaZbbk 
+ 
+ Project Name:locationtrack
+ projectId:locationtrack-178511 
+ Api Key: AIzaSyBEhJ4EBvIBnZ-dS0n3DHOEEugoQ3C6NOg 
+ 
+ Pubnub credential
+ Dynamic softbd's apps
+ publishKey: 'pub-c-3a3e4847-e761-4000-90eb-431372ffc1aa',
+ subscribeKey: 'sub-c-17b9b2cc-8e38-11e7-bb39-e6c98348a4c4'
+ 
+ 
+ 
+ Project Name:vehicle
+ project Id:vehicle-179503
+ Api Key: AIzaSyBsbWiSkbCAhymgnhaKgntDqp89xeaZbbk 
+ 
+ 
+ 
+ 
+ 
+ Karimgroup Inventory Second Version
+ 
+ 1.Database
+   i.acl_root_item,acl_access_type and acl_item_list table has been created
+   ii.designation table has been created
+   iii.users,v_users table has been created
+   iv.employees,v_employees table
+   v.status field type changed in ipo_material_indent table
+   vi.employeeId,approver_id,approver field added in ipo_material_indent table
+   vii.notice table has been created
+   viii.alert table has been created   
+   ix.v_ipo_material_indent table has been updated
+   xi.v_ipo_material_indent_details table has been updated
+   x.employeeId,approver_id,approver_name,b_approve_status field added in budget table

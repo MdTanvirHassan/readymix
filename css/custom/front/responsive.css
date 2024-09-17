@@ -1,0 +1,850 @@
+/* Tablet Resolution starts here */
+
+
+img {max-width:100%; }
+
+@media screen and (min-width:768px) and (max-width:999px) {
+	.wrapper {
+		width:765px; 
+	}
+		.nav {
+		}
+			.nav_main_item a {
+				padding:10px 25px;
+				font-size:0.75rem;
+			}
+			.sub_menu_a {
+				background:url(../../../images/front/down_arrow_tablet.png) no-repeat right;
+			}
+	.homepage_slider {
+		width:755px;
+		height:220px;
+		margin-top:10px;
+	}
+	
+	.homepage_content {
+		margin-top:10px;
+		padding-bottom:20px;
+	}
+		.homepage_content_left {
+			width:100%;
+			float:none;
+		}
+				.homepage_carousel {
+					height:210px;	
+				}
+				.homepage_carousel_header {
+					background:url(../../../images/front/carousel_heading_bg_tablet.jpg) no-repeat center top;
+				}
+					.homepage_carousel_header a {
+						font-size:1.0rem;
+					}
+					.carousel_link_1 {
+						width:254px;
+					}
+					.carousel_link_2 {
+						width:262px;
+					}
+					.carousel_link_3 {
+						width:248px;
+					}
+		.homepage_content_right {
+			width:100%;
+			margin-top:5px;
+			float:none;
+		}
+				.latest_news_heading {
+					height:33px;
+					padding-top:10px;
+					font-size:1.1rem;
+					background:url(../../../images/front/latest_news_heading_bg_tablet.png) no-repeat center top;
+				}
+					.latest_news_heading a {
+						font-size:0.8rem;
+					}
+
+					.latest_news_item_content_right {
+						width:655px;
+					}
+						.latest_news_item_content {
+							font-size:0.95rem;
+						}
+						
+		.footer_breadcrumbs {
+			height:215px;
+		}
+				.breadcrumb_box_heading {
+					font-family:Antenna;
+					font-size:14px;
+					text-transform:uppercase;
+				}
+				.breadcrumb_box_list {
+					
+				}
+			.box_3 {
+				display:none;
+			}
+			.footer_links_left {
+				color:#fff;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:11px;	
+			}
+				.copyright_info {
+					padding-left:0px;
+					padding-top:17px;
+					font-size:0.7rem;	
+				}
+			
+			.find_us {
+				width:235px;
+				padding-top:10px;
+			}
+/* inner page css starts ************************************************/
+.inner_content {
+	
+}
+	.inner_content_left {
+		width:45px;
+	}
+		div.left_menu {
+			margin-top:20px;
+		}
+			div.left_menu ul.visible_nav {
+				display:none;
+			}		
+					.toggle-slide-left {
+						display:block;
+					}
+	.inner_content_right {
+		width:681px;
+		padding-left:26px;
+		padding-top:0px;
+		background:url(../../../images/front/complex_shadow.png) no-repeat top left;
+	}
+		ul.category_nav {
+			height:41px;
+			border-bottom:solid 7px #e6e6e6;
+			margin-bottom:14px;
+		}
+			ul.category_nav li {
+				float:left;
+				padding:0px 8px;
+				background:url(../../../images/front/category_nav_seperator.png) bottom right no-repeat;
+			}
+			ul.category_nav li.first {
+				padding-left:0px;
+			}
+			ul.category_nav li.last {
+				padding-right:0px;
+				background-image:none;
+			}
+				ul.category_nav li a {
+					text-decoration:none;
+					margin-top:5px;
+					display:block;
+					padding:0px 3px;
+					height:32px;
+					padding-top:9px;
+					font-family:'Trebuchet MS';
+					text-transform:uppercase;
+					color:#000;
+				}
+				ul.category_nav li a.active, ul.category_nav li a:hover {
+					background-color:#e6e6e6;
+					border-radius:10px 10px 0px 0px;
+				}
+		.website_category_single {
+			
+		}
+			.website_category_single a {
+				display:block;
+				margin-bottom:13px;
+			}
+			.website_category_single a img {
+				width:331px;
+				border: solid 2px #c7c7c7;
+			}
+		.category_pagination {
+			height:49px;
+		}
+			.category_pagination a.pagination_back_button {
+				font-family:'Trebuchet MS';
+				font-size:12px;
+				text-decoration:none;
+				color:#000;
+				display:block;
+				width:62px;
+				height:22px;
+				padding-top:5px;
+				border:solid 1px #cfcfcf;
+				border-radius:2px;
+				padding-left:10px;
+				float:right;
+			}
+			.category_pagination ul {
+				float:right;
+				padding-top:5px;
+				margin-left:20px;
+			}
+				.category_pagination ul li {
+					float:left;
+				}
+					.category_pagination ul li a {
+						text-decoration:none;
+						color:#000;
+						font-family:'Trebuchet MS';
+						font-size:12px;
+						display:block;
+						width:20px;
+						height:20px;
+					}
+					.category_pagination ul li a.active {
+						text-decoration:underline;
+					}
+}
+
+@media screen and (min-width:475px) and (max-width:767px) {
+.wrapper {
+	width: 470px;
+}
+.orange_head_line {
+	height: 10px;
+}
+.orrange_foot_line {
+	height: 5px;
+}
+
+/* Header CSS Starts */
+.header_full {
+	background: url(../../../images/front/header_bg.jpg) repeat-x bottom #fafafa;
+}
+	.header {
+		height: 154px;
+	}
+		.logo {
+			width:235px;
+			float:none;
+			margin:0px auto;
+			margin-top:15px;
+		}
+		.logo a img {
+			width:235px;	
+		}
+		.nav {
+			float:none;
+			margin:0px auto;
+		}
+			.phone {
+				display:none;
+			}
+			.nav_panel {
+			}
+				.nav_main {
+					margin-top:7px;
+				}
+					.nav_main_item {
+						float:none;
+						border-bottom:solid 1px #333;
+					}
+						.nav_main_item a {
+							display:block;
+							/* reset */
+							background-color:transparent;
+							padding:0px;;
+							color:#d9d9d9;
+							text-decoration:none;
+							text-transform:uppercase;
+							font-size:17px;
+							font-family:Arial, Helvetica, sans-serif;
+							border:none;
+						}
+						.nav_main_item a.active, .nav_main_item a:hover {
+							background-color:transparent;;
+							border:none;
+							color:#fff;
+						}
+						.nav_sub {
+							display:block;
+							position:relative;
+						}
+							.nav_sub_item {
+								border-bottom:solid 1px #333;
+							}
+							.nav_sub_item a {
+								display:block;
+								background-color:transparent;
+							}
+						.sub_menu_a {
+							background-color:transparent;
+							background-image:none;
+						}
+						.sub_menu:hover .nav_sub {
+							display:block;	
+						}
+	.homepage_slider {
+		display:none;
+	}
+	.homepage_content {
+		margin-top:0px;
+		padding-bottom:30px;
+	}
+		.homepage_content_left {
+			width:100%;
+			float:none;
+		}
+			.welcome_box {
+				padding:8px 11px;
+				padding-right:20px;
+				background-color:#fff;
+				box-shadow:0px 0px 3px #999;
+				margin-bottom:10px;
+				
+			}
+				.welcome_heading {
+					font-family:Antenna;
+					color:#515151;
+					font-size:1.8rem;
+					text-transform:uppercase;
+					margin-bottom:8px;
+				}
+				.welcome_box_text {
+					font-family:Trebuchet MS;
+					font-size:1.2rem;
+					text-align:justify;
+				}
+					.read_more {
+						color:#665533;
+						font-family:Arial, Helvetica, sans-serif;
+						font-size:1.15rem;
+						margin-top:25px;
+					}
+			.homepage_carousel {
+				height:auto;
+				display:none; /* will be changed later */
+			}
+				
+		.homepage_content_right {
+			width:100%;
+			float:none;
+		}
+			.latest_news_box {
+					
+			}
+			
+				.latest_news_see_more {					
+					display:block;
+					text-align:center;
+					margin-top:20px;
+				}
+				.latest_news_heading {
+					height:38px;
+					padding-top:5px;
+					font-size:1.8rem;
+					background:url(../../../images/front/latest_news_heading_bg_phone.png) no-repeat center top;
+				}
+					.latest_news_heading a {
+						font-size:1.3rem;
+						padding-top:5px;
+						text-decoration:underline;
+					}
+				.latest_news_item {
+					padding:11px;
+					border-bottom:solid 1px #d5dbdf;
+				}
+					.calendar_date {
+						width:96px;
+						height:96px;
+						font-size:1.8rem;
+					}
+						.calendar_date_month {
+							height:42px;
+							padding-top:6px;
+						}
+						.calendar_date_date {
+							height:42px;
+							padding-top:6px;
+						}
+					.latest_news_item_content_right {
+						width:330px !important;
+					}
+						.latest_news_item_content {
+							font-size:1.2rem;
+						}
+
+.footer_full {
+	margin-top:1px;
+	background-color:#434c51;
+}
+		.footer_breadcrumbs {
+			height:auto;
+		}
+			.box_1, .box_2, .box_3 {
+				display:none;
+			}
+			.breadcrumb_address_box {
+				width:100%;
+				float:right;	
+			}
+				.address_item {
+					margin-top:14px;
+					padding-bottom:14px;
+				}
+					.address_item_heading {
+						font-size:1.5rem;
+					}
+					.address_item_content {
+						font-size:1.2rem;
+					}
+
+
+		.footer_links {
+			height:130px;
+		}
+			.footer_links_left {
+				float:none;
+				position:absolute;
+				margin-top:85px;
+				font-size:1.0rem;	
+			}
+				.copyright_info {
+					text-align:center;
+					padding:0px;
+				}
+			.footer_links_right {
+				float:none;
+			}
+			
+			.find_us {
+				width:400px;
+				margin:0px auto;
+			}
+				.find_us span {
+					display:none;	
+				}
+				.find_us a {
+					float:left;
+				}
+				.find_us a {
+					display:block;
+				}
+				.find_us a img {
+					width:100px;	
+				}
+/* inner page css starts ************************************************/
+.inner_content {
+	
+}
+	.inner_content_left {
+		width:45px;
+	}
+		div.left_menu {
+			margin-top:20px;
+		}
+			div.left_menu ul.visible_nav {
+				display:none;
+			}		
+					.toggle-slide-left {
+						display:block;
+					}
+	.inner_content_right {
+		width:392px;
+		padding-left:26px;
+		padding-top:0px;
+		background:none;
+		border-left:solid 1px #f0f0f0;
+	}
+		select.category_nav_responsive {
+			display:block !important;
+			width:374px;
+			float:left;	
+		}
+		ul.category_nav {
+			height:41px;
+			border-bottom:solid 7px #e6e6e6;
+			margin-bottom:14px;
+			display:none;
+		}
+			ul.category_nav li {
+				float:left;
+				padding:0px 8px;
+				background:url(../../../images/front/category_nav_seperator.png) bottom right no-repeat;
+			}
+			ul.category_nav li.first {
+				padding-left:0px;
+			}
+			ul.category_nav li.last {
+				padding-right:0px;
+				background-image:none;
+			}
+				ul.category_nav li a {
+					text-decoration:none;
+					margin-top:5px;
+					display:block;
+					padding:0px 3px;
+					height:32px;
+					padding-top:9px;
+					font-family:'Trebuchet MS';
+					text-transform:uppercase;
+					color:#000;
+				}
+				ul.category_nav li a.active, ul.category_nav li a:hover {
+					background-color:#e6e6e6;
+					border-radius:10px 10px 0px 0px;
+				}
+		.website_category_single {
+			
+		}
+			.website_category_single a {
+				display:block;
+				float:none !important;
+				margin-bottom:13px;
+			}
+			.website_category_single a img {
+				width:370px;
+			}
+		.category_pagination {
+			height:49px;
+		}
+			.category_pagination a.pagination_back_button {
+				font-family:'Trebuchet MS';
+				font-size:12px;
+				text-decoration:none;
+				color:#000;
+				display:block;
+				width:62px;
+				height:22px;
+				padding-top:5px;
+				border:solid 1px #cfcfcf;
+				border-radius:2px;
+				padding-left:10px;
+				float:right;
+			}
+			.category_pagination ul {
+				float:right;
+				padding-top:5px;
+				margin-left:20px;
+			}
+				.category_pagination ul li {
+					float:left;
+				}
+					.category_pagination ul li a {
+						text-decoration:none;
+						color:#000;
+						font-family:'Trebuchet MS';
+						font-size:12px;
+						display:block;
+						width:20px;
+						height:20px;
+					}
+					.category_pagination ul li a.active {
+						text-decoration:underline;
+					}
+}
+@media screen and (min-width:320px) and (max-width:474px) {
+.wrapper {
+	width: 319px;
+}
+.orange_head_line {
+	height: 7px;
+}
+.orrange_foot_line {
+	height: 5px;
+}
+
+/* Header CSS Starts */
+.header_full {
+	background: url(../../../images/front/header_bg.jpg) repeat-x bottom #fafafa;
+}
+	.header {
+		height: 120px;
+	}
+		.logo {
+			width:150px;
+			float:none;
+			margin:0px auto;
+			padding-top:12px;
+		}
+		.logo a img {
+			width:150px;	
+		}
+		.nav {
+			float:none;
+			margin:0px auto;
+		}
+			.phone {
+				display:none;
+			}
+			.nav_panel {
+			}
+				.nav_main {
+					margin-top:7px;
+				}
+					.nav_main_item {
+						float:none;
+						border-bottom:solid 1px #333;
+					}
+						.nav_main_item a {
+							display:block;
+							/* reset */
+							background-color:transparent;
+							padding:0px;;
+							color:#d9d9d9;
+							text-decoration:none;
+							text-transform:uppercase;
+							font-size:17px;
+							font-family:Arial, Helvetica, sans-serif;
+							border:none;
+						}
+						.nav_main_item a.active, .nav_main_item a:hover {
+							background-color:transparent;;
+							border:none;
+							color:#fff;
+						}
+						.nav_sub {
+							display:block;
+							position:relative;
+						}
+							.nav_sub_item {
+								border-bottom:solid 1px #333;
+							}
+							.nav_sub_item a {
+								display:block;
+								background-color:transparent;
+							}
+						.sub_menu_a {
+							background-color:transparent;
+							background-image:none;
+						}
+						.sub_menu:hover .nav_sub {
+							display:block;	
+						}
+	.homepage_slider {
+		display:none;
+	}
+	.homepage_content {
+		margin-top:0px;
+		padding-bottom:20px;
+	}
+		.homepage_content_left {
+			width:100%;
+			float:none;
+		}
+			.welcome_box {
+				padding:5px 8px;
+				background-color:#fff;
+				box-shadow:0px 0px 3px #999;
+				margin-bottom:10px;
+				
+			}
+				.welcome_heading {
+					font-family:Antenna;
+					color:#515151;
+					font-size:1.5rem;
+					text-transform:uppercase;
+					margin-bottom:8px;
+				}
+				.welcome_box_text {
+					font-family:Trebuchet MS;
+					font-size:1.0rem;
+					text-align:justify;
+				}
+					.read_more {
+						color:#665533;
+						font-family:Arial, Helvetica, sans-serif;
+						font-size:1.0rem;
+						margin-top:25px;
+					}
+			.homepage_carousel {
+				height:auto;
+				display:none; /* will be changed later */
+			}
+				
+		.homepage_content_right {
+			width:100%;
+			float:none;
+		}
+			.latest_news_box {
+					
+			}
+				.latest_news_see_more {					
+					display:block;
+					text-align:center;
+					margin-top:10px;
+				}
+				.latest_news_heading {
+					height:34px;
+					padding-top:9px;
+					font-size:1.4rem;
+					background:url(../../../images/front/latest_news_heading_bg_phone.png) no-repeat center top;
+				}
+					.latest_news_heading a {
+						font-size:1.2rem;
+						padding-top:0px;
+						text-decoration:underline;
+					}
+				.latest_news_item {
+					padding:10px;
+					border-bottom:solid 1px #d5dbdf;
+				}
+					.calendar_date {
+						width:64px;
+						height:64px;
+						font-size:1.2rem;
+					}
+						.calendar_date_month {
+							height:28px;
+							padding-top:4px;
+						}
+						.calendar_date_date {
+							height:28px;
+							padding-top:4px;
+						}
+					.latest_news_item_content_right {
+						width:210px !important;
+					}
+						.latest_news_item_content {
+							font-size:1.0rem;
+						}
+
+.footer_full {
+	margin-top:1px;
+	background-color:#434c51;
+}
+		.footer_breadcrumbs {
+			height:auto;
+		}
+			.box_1, .box_2, .box_3 {
+				display:none;
+			}
+			.breadcrumb_address_box {
+				width:100%;
+				float:right;	
+			}
+				.address_item {
+					margin-top:14px;
+					padding:0px 10px 14px 10px;
+				}
+					.address_item_heading {
+						font-size:1.3rem;
+					}
+					.address_item_content {
+						font-size:1.0rem;
+					}
+
+
+		.footer_links {
+			height:130px;
+		}
+			.footer_links_left {
+				float:none;
+				position:absolute;
+				margin-top:65px;
+				font-size:0.9rem;
+			}
+				.copyright_info {
+					text-align:center;
+					padding:0px 10px;
+				}
+			.footer_links_right {
+				float:none;
+			}
+			
+			.find_us {
+				width:319px;
+				margin:0px auto;
+			}
+				.find_us span {
+					display:none;	
+				}
+				.find_us a {
+					float:left;
+				}
+				.find_us a {
+					display:block;
+				}
+				.find_us a img {
+					width:79px;	
+				}
+/* inner page css starts ************************************************/
+.inner_content {
+	
+}
+	.inner_content_left {
+		width:45px;
+	}
+		div.left_menu {
+			margin-top:20px;
+		}
+			div.left_menu ul.visible_nav {
+				display:none;
+			}		
+					.toggle-slide-left {
+						display:block;
+					}
+	.inner_content_right {
+		width:239px;
+		padding-left:26px;
+		padding-top:0px;
+		background:none;
+		border-left:solid 1px #f0f0f0;
+	}
+		select.category_nav_responsive {
+			display:block !important;
+			width:204px;
+			float:left;	
+		}
+		ul.category_nav {
+			height:41px;
+			border-bottom:solid 7px #e6e6e6;
+			margin-bottom:14px;
+			display:none;
+		}
+		.website_category_single {
+			
+		}
+			.website_category_single a {
+				display:block;
+				float:none !important;
+				margin-bottom:13px;
+			}
+			.website_category_single a img {
+				width:200px;
+			}
+		.category_pagination {
+			height:49px;
+		}
+			.category_pagination a.pagination_back_button {
+				font-family:'Trebuchet MS';
+				font-size:12px;
+				text-decoration:none;
+				color:#000;
+				display:block;
+				width:62px;
+				height:22px;
+				padding-top:5px;
+				border:solid 1px #cfcfcf;
+				border-radius:2px;
+				padding-left:10px;
+				float:right;
+			}
+			.category_pagination ul {
+				float:right;
+				padding-top:5px;
+				margin-left:20px;
+			}
+				.category_pagination ul li {
+					float:left;
+				}
+					.category_pagination ul li a {
+						text-decoration:none;
+						color:#000;
+						font-family:'Trebuchet MS';
+						font-size:12px;
+						display:block;
+						width:20px;
+						height:20px;
+					}
+					.category_pagination ul li a.active {
+						text-decoration:underline;
+					}
+}

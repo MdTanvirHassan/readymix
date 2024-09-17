@@ -1,0 +1,47 @@
+
+#content ul.datatable_actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+}
+
+#content ul.datatable_actions li {
+    float: left;
+    padding: 5px;
+}
+.nav > li > a{
+    padding:10px !important;
+}
+.nav > li > a:hover{
+    padding:10px !important;
+}
+.nav-selected a{
+      padding:10px !important;
+      margin-left:18px;
+       background: #e8e8e8;
+}
+#content ul.datatable_actions li a {
+    font-size: 16px;
+}
+
+#content ul.datatable_actions li a.view {
+    color: #449D44;
+}
+#content ul.datatable_actions li a.edit {
+    color: #31B0D5;
+}
+#content ul.datatable_actions li a.delete {
+    color: #C9302C;
+}
+.margin_top{
+    margin-top: 15px;
+}
+.padding{
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding: 0px 0px 0px 20px !important;
+    margin-top: -3px !important;
+}

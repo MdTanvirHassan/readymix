@@ -1,0 +1,64 @@
+Inventory/Store/Supply Chain/Procurement Management software :
+
+Main Feature
+
+1.All items stock information
+2.All items details information
+3.Item category information
+4.All supplier information
+5.Procurement 
+ i.Requistion
+ ii.Budget
+6.Purchase information
+7.Issue Information 
+8.Multiple user access controll 
+9.Mutiple reports
+  
+  i.Store ledger report
+    a.All items store ledger report
+	b.Particular item wise store ledger report
+	b.Item category wise store ledger report
+	
+  ii.Current Stock Report
+     a.Item category wise stock report
+	
+     b.particular item wise stock report	 
+	
+  iii.Purchase Report
+    a.All items details purchase report 
+	b.All items summary purchase report
+	c.Particular item wise details purchase report
+	d.Particular item wise summary purchase report
+	e.Item category wise (details and summary) purchase report
+	f.Project/Department wise(details and summary) purchase report
+	g.Supplier wise purchase report
+	
+  iv.Purchase return report	
+	
+	
+  v.Issue Report
+      a.Project/Department wise issue report
+      b.Asset wise issue report
+  vi.Issue return receive report
+      a.Project/Department wise issue return receive report
+      b.Asset wise issue return receive report
+  vii.Asset register report
+  viii.Asset movement report  
+  
+	
+Good:
+    i.User friendly
+    ii.Secured
+    iii.Well Organized
+	iv.20+ reports
+    v.Individual access controll
+	
+Bad:
+   i.Procurement
+     a.This is applicable for cash budget
+	 b.There is no quatation collection information
+        
+	
+	
+     01728428896 jakir vai parvin husband 
+     01715424477 snake vacsin contact number	 

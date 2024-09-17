@@ -1,0 +1,69 @@
+
+
+
+@media screen and (max-width: 640px){
+    .item h3 {
+        font-size: 20px;
+    }
+    .item h2 {
+        font-size: 80px;
+        max-width: 430px;
+    }
+    .item h4 {
+        font-size: 24px;
+    }
+    .about-icon {
+        max-width:292px;
+       margin: 30px auto;
+    }
+    .servic-icon{
+       max-width:292px;
+       margin: 30px auto;
+    }
+    .element-item {
+        width: 50%;
+    }
+    .pricing{
+       max-width:292px;
+       margin: 30px auto; 
+    }
+    .count{
+        max-width:292px;
+        margin: 30px auto; 
+    }
+    .footer-text{
+      max-width:292px;  
+    }
+    .footer-icon{
+      max-width:292px;
+      margin-top: -28px;
+
+    }
+}
+@media screen and (max-width:480px){
+    
+    .element-item {
+        width: 100%;
+    }
+    .footer-text{
+      max-width:242px;  
+    }
+    .footer-icon i {
+    font-size: 16px;
+}
+}
+@media screen and (max-width:320px){
+  .thematic_con{
+        margin-top: 5px;
+        display: inline-block;
+                      }
+  .form_input {
+display: inline-block;
+margin-left: 0 !important;
+width: 73%;
+}        
+.thematic_con_3 {
+  margin-left: -22px;
+  margin-top: 50px;
+}
+}

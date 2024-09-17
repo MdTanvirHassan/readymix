@@ -1,0 +1,59 @@
+ <div class="right_col" style="background-color: #f1f1f1;padding-bottom:20px;">
+    <div class="">
+        <div class="page-title">
+            <div class="title_center">
+                <h3>Edit Copy To</h3>
+            </div>
+        </div>
+    <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                 <div class="x_content">
+                     <form class="form-horizontal" action="<?php echo site_url('copy_to/edit_copy_to_action/'.$copy_to_info[0]['id']) ?>" method="post">
+                         
+                         
+                         <div class='form-group' >
+                                <label for="title" class="col-sm-2 control-label">
+                                    Name<sup style="color:red">*</sup> :
+                                 </label> 
+                                       <div class="col-sm-4 input-group">
+                                           <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                           <input required class="form-control" id="inputdefault" name="name" type="text" value="<?php if(!empty($copy_to_info[0]['name'])) echo $copy_to_info[0]['name'] ?>" >
+                                 </div>
+                                <label for="title" class="col-sm-2 control-label">
+                                 Remark :
+                              </label>
+                               <div class="col-sm-4 input-group">
+                                      <span class="input-group-addon"><i class="fa fa-check-square"></i></span>
+                                    <input class="form-control" id="inputdefault" name="remark" type="text" value="<?php if(!empty($copy_to_info[0]['remark'])) echo $copy_to_info[0]['remark'] ?>" >
+                             </div>
+
+                           </div>
+                         
+                    
+                       
+                         
+                         
+                      <div class="form-group" style="margin-top: 40px;">
+                          
+                        <div class="col-sm-2">
+                            <a href="<?php echo site_url('backend/copy_to') ?>" > <button type="button" class="btn btn-success button">GO BACK</button> </a>
+                        </div>   
+                        <div class=" col-sm-2">
+                            <button type="submit" class="btn btn-primary button">UPDATE</button>
+                        </div>
+                        
+                    </div>
+                     </form>     
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+</div>
+</div>
+
+<script>
+$('.select2').select2();
+</script>
+
